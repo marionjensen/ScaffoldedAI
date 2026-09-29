@@ -79,8 +79,6 @@ ScaffoldedAI was created by **Marion Jensen**, an author and instructional desig
 
 This framework grew out of real-world deployment: AI tutors built using this architecture have been used for employee onboarding, professional development, and skills training in live corporate environments.
 
-Marion is currently pursuing a PhD in Instructional Technology & Learning Sciences at Utah State University, with a research focus on AI-facilitated learning.
-
 - 🔗 [LinkedIn](https://www.linkedin.com/in/marionjensen/)
 - 🌐 [marionjensen.com](https://marionjensen.com)
 
