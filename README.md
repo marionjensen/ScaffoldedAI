@@ -24,7 +24,8 @@ The result: you can build a tutor for *any* subject by writing a Layer 2 documen
 
 ## What You'll Need
 
-- A **Claude Pro or Team account** with access to [Claude Projects](https://support.anthropic.com/en/articles/9517075-what-are-projects)
+- A **Claude Pro, Max, Team, or Enterprise account** with access to [Claude Projects](https://support.anthropic.com/en/articles/9517075-what-are-projects)
+- **Code execution and file creation** turned on (Settings > Capabilities). This is only needed for the Tutor Builder in Path 2.
 - About **15 minutes** to set up your first tutor
 - Curiosity about how AI can do more than answer questions
 
@@ -48,13 +49,13 @@ Each sample includes everything you need: setup instructions, the Layer 1 and La
 
 ### 🛠️ Path 2: Build Your Own Tutor
 
-Ready to create a tutor for your own subject? The **Tutor Builder** is itself a Claude Project — you give it your source material (documentation, guides, training manuals, textbooks, or even just your own expertise written out), and it helps you generate a Layer 2 document tailored to your content.
+Ready to create a tutor for your own subject? The **Tutor Builder** is a Claude skill. Install it once, then start any chat with:
 
-**Two ways to start:**
+> **I want to make a tutor.**
 
-- **Use our starter kit.** We've included a sample source document so you can walk through the full build process with guided content before using your own. Think of it as a practice run.
+It asks what you want to teach (you can bring documentation, guides, training manuals, textbooks, or just your own expertise), walks you through learning objectives and an outline, and hands you one finished file. Paste that file into a new Claude Project and your tutor is ready.
 
-- **Bring your own content.** If you already have documentation or subject matter you want to teach, skip the kit and jump straight in. The Tutor Builder will walk you through everything.
+Not sure what to expect? Tell the builder you'd like a **practice run** and it will guide you through a full build using a sample article before you use your own content.
 
 👉 **[Build Your Own Tutor →](tutor-builder/)**
 
@@ -68,7 +69,7 @@ Ready to create a tutor for your own subject? The **Tutor Builder** is itself a 
 
 3. **Start a conversation.** Open a new chat within the project and begin learning. The tutor will assess where you are, guide you through the material, and adapt to your responses.
 
-That's it. Two files in a Claude Project. No code, no plugins, no platform to learn.
+That's it. Two layers in one Claude Project. No code, no plugins, no platform to learn. (If you use the Tutor Builder, it joins the two layers into a single file for you.)
 
 ---
 
